@@ -9,7 +9,7 @@ function Base(props) {
             elt.style.background = `url("/images/${props.backgroundImage}")`
             elt.style.backgroundSize = 'cover'
             elt.style.backgroundRepeat = 'no-repeat'
-            elt.style.backgroundPosition = 'center'
+            elt.style.backgroundPositionX = 'center'
         }
     }, [props.backgroundImage])
 
