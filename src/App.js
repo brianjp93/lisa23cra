@@ -2,11 +2,9 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
 } from 'react-router-dom'
-import { useState } from 'react'
 import Home from './pages/home'
-import {pages, MAXPAGE} from './pages/pageList'
+import {pages} from './pages/pageList'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
 
