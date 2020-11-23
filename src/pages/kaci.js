@@ -2,12 +2,12 @@ import React from 'react'
 import Base from '../layouts/base'
 
 
-function Kacie(props) {
+function Kaci(props) {
     return (
         <Base
             match={props.match}
-            backgroundImage='kacie.jpg'
-            title="Here's a picture of you with Kacie for good measure">
+            backgroundImage='kaci.jpg'
+            title="Here's a picture of you with Kaci for good measure">
             <div className='subtitle'>
                 Probably after one glass.
             </div>
@@ -15,4 +15,4 @@ function Kacie(props) {
     )
 }
 
-export default Kacie
+export default Kaci

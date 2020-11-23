@@ -3,7 +3,7 @@ import EnjoyYourShoes from './enjoyYourShoes'
 import Bruise from './bruise'
 import Baby from './baby'
 import Wine from './wine'
-import Kacie from './kacie'
+import Kaci from './kaci'
 import Emma from './emma'
 import Anyway from './anyway'
 
@@ -13,7 +13,7 @@ export const pages = [
     Bruise,
     Baby,
     Wine,
-    Kacie,
+    Kaci,
     Emma,
     Anyway,
 ]
