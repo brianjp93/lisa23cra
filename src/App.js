@@ -4,6 +4,7 @@ import {
     Route,
 } from 'react-router-dom'
 import Home from './pages/home'
+import LisaIsDumb from './pages/lisaIsDumb'
 import {pages} from './pages/pageList'
 import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
@@ -22,6 +23,7 @@ function App() {
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route path="/page/:id" component={PageRenderer} />
+                    <Route path='/dumb' component={LisaIsDumb} />
                 </Switch>
             </div>
         </Router>
